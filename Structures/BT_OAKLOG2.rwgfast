@@ -1,0 +1,54 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '1.0'
+schematic:
+  minecraftVersion: 1.16.3
+  version: '1.3'
+  basement:
+    build: true
+    block: minecraft:dirt
+  spawners:
+    enabled: false
+    list: []
+  bee_nests:
+    positions: []
+    chance: 50
+blocks:
+  '1_0_4': minecraft:vine[east=false,north=false,south=false,up=false,west=true]
+  2_-1_1: minecraft:grass_block[snowy=false]
+  '0_0_3': minecraft:oak_log[axis=z]
+  '-1_0_1': minecraft:vine[east=true,north=false,south=false,up=false,west=false]
+  '-1_0_4': minecraft:vine[east=true,north=false,south=false,up=false,west=false]
+  1_-1_5: minecraft:coarse_dirt
+  '1_0_2': minecraft:vine[east=false,north=false,south=false,up=false,west=true]
+  '2_0_1': minecraft:tall_grass[half=lower]
+  0_-1_1: minecraft:dirt
+  1_-1_4: minecraft:dirt
+  '-1_0_3': minecraft:vine[east=true,north=false,south=false,up=false,west=false]
+  '0_0_5': minecraft:vine[east=false,north=true,south=false,up=false,west=false]
+  1_-1_0: minecraft:coarse_dirt
+  1_-1_1: minecraft:grass_block[snowy=false]
+  -1_-1_5: minecraft:coarse_dirt
+  -1_-1_3: minecraft:grass_block[snowy=false]
+  -1_-1_2: minecraft:coarse_dirt
+  0_-1_3: minecraft:grass_block[snowy=false]
+  2_-1_0: minecraft:podzol[snowy=false]
+  '0_0_1': minecraft:oak_log[axis=z]
+  -1_-1_4: minecraft:grass_block[snowy=false]
+  '2_1_1': minecraft:tall_grass[half=upper]
+  0_-1_5: minecraft:podzol[snowy=false]
+  1_-1_2: minecraft:grass_block[snowy=false]
+  2_-1_2: minecraft:podzol[snowy=false]
+  2_-1_3: minecraft:grass_block[snowy=false]
+  '1_0_3': minecraft:player_wall_head[facing=east]#v=0?{texture:"NGNlMGEyMzBhY2Q2NDM2YWJjODZmMTNiZTcyZTliYTk0NTM3ZWU1NGYwMzI1YmI4NjI1NzdhMWUwNjJmMzcifX19"}
+  '0_0_4': minecraft:oak_log[axis=z]
+  0_-1_4: minecraft:dirt
+  '2_1_3': minecraft:tall_grass[half=upper]
+  '0_1_1': minecraft:player_head[rotation=4]#v=0?{texture:"NGNlMGEyMzBhY2Q2NDM2YWJjODZmMTNiZTcyZTliYTk0NTM3ZWU1NGYwMzI1YmI4NjI1NzdhMWUwNjJmMzcifX19"}
+  '2_0_3': minecraft:tall_grass[half=lower]
+  1_-1_3: minecraft:dirt
+  0_-1_0: minecraft:grass_block[snowy=false]
+  0_-1_2: minecraft:dirt
+  '0_0_2': minecraft:oak_log[axis=z]

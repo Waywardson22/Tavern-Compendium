@@ -1,0 +1,41 @@
+positioning:
+  position: UNDERGROUND
+  minY: 12
+  maxY: 55
+version: '1.0'
+schematic:
+  minecraftVersion: 1.16.2
+  version: '1.3'
+  basement:
+    build: false
+  spawners:
+    enabled: false
+    list: []
+  bee_nests:
+    positions: []
+    chance: 50
+blocks:
+  '2_1_2': minecraft:bone_block[axis=y]
+  1_-1_0: minecraft:bone_block[axis=x]
+  -1_-1_2: minecraft:bone_block[axis=x]
+  '-2_1_0': minecraft:bone_block[axis=y]
+  0_-1_4: minecraft:bone_block[axis=z]
+  0_-1_0: minecraft:bone_block[axis=z]
+  1_-1_2: minecraft:bone_block[axis=x]
+  1_-1_4: minecraft:bone_block[axis=x]
+  '-2_0_0': minecraft:bone_block[axis=x]
+  '-2_0_2': minecraft:bone_block[axis=x]
+  '0_0_5': minecraft:bone_block[axis=z]
+  '-2_1_2': minecraft:bone_block[axis=y]
+  '2_1_4': minecraft:bone_block[axis=y]
+  '2_0_0': minecraft:bone_block[axis=x]
+  '-2_1_4': minecraft:bone_block[axis=y]
+  '-2_0_4': minecraft:bone_block[axis=x]
+  '0_0_1': minecraft:bone_block[axis=z]
+  -1_-1_0: minecraft:bone_block[axis=x]
+  0_-1_2: minecraft:bone_block[axis=x]
+  '0_0_3': minecraft:bone_block[axis=z]
+  '2_1_0': minecraft:bone_block[axis=y]
+  -1_-1_4: minecraft:bone_block[axis=x]
+  '2_0_4': minecraft:bone_block[axis=x]
+  '2_0_2': minecraft:bone_block[axis=x]

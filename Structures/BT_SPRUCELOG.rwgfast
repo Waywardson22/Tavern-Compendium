@@ -1,0 +1,60 @@
+positioning:
+  position: OVERWORLD
+  minY: 0
+  maxY: 256
+version: '1.0'
+schematic:
+  minecraftVersion: 1.16.3
+  version: '1.3'
+  basement:
+    build: true
+    block: minecraft:dirt
+  spawners:
+    enabled: false
+    list: []
+  bee_nests:
+    positions: []
+    chance: 50
+blocks:
+  '1_1_0': minecraft:player_head[rotation=0]#v=0?{texture:"ODBmODg2NTAzZDI1ZmFkY2JlYTllZTc3Nzk4OTAyNTdkZTBlM2U5NGE0Y2FmN2E2N2M2ODg2MzFjZjJiNjY5In19fQ"}
+  0_1_-2: minecraft:tall_grass[half=upper]
+  0_0_-2: minecraft:tall_grass[half=lower]
+  4_-1_1: minecraft:grass_block[snowy=false]
+  4_0_-1: minecraft:vine[east=false,north=false,south=true,up=false,west=false]
+  1_1_-1: minecraft:tall_grass[half=upper]
+  1_0_-1: minecraft:tall_grass[half=lower]
+  '3_0_1': minecraft:vine[east=false,north=true,south=false,up=false,west=false]
+  3_0_-1: minecraft:player_wall_head[facing=north]#v=0?{texture:"ODBmODg2NTAzZDI1ZmFkY2JlYTllZTc3Nzk4OTAyNTdkZTBlM2U5NGE0Y2FmN2E2N2M2ODg2MzFjZjJiNjY5In19fQ"}
+  0_-1_-2: minecraft:grass_block[snowy=false]
+  3_-1_0: minecraft:dirt
+  5_-1_1: minecraft:grass_block[snowy=false]
+  '1_0_0': minecraft:spruce_log[axis=x]
+  5_1_-1: minecraft:tall_grass[half=upper]
+  0_-1_0: minecraft:coarse_dirt
+  1_-1_-2: minecraft:coarse_dirt
+  2_-1_1: minecraft:grass_block[snowy=false]
+  5_-1_-1: minecraft:grass_block[snowy=false]
+  2_0_-2: minecraft:tall_grass[half=lower]
+  0_0_-1: minecraft:grass
+  '2_0_1': minecraft:poppy
+  2_-1_-2: minecraft:grass_block[snowy=false]
+  2_1_-2: minecraft:tall_grass[half=upper]
+  1_-1_0: minecraft:grass_block[snowy=false]
+  '3_0_0': minecraft:spruce_log[axis=x]
+  2_-1_-1: minecraft:grass_block[snowy=false]
+  '4_0_0': minecraft:spruce_log[axis=x]
+  3_-1_1: minecraft:coarse_dirt
+  2_-1_0: minecraft:dirt
+  5_-1_0: minecraft:grass_block[snowy=false]
+  '5_0_0': minecraft:vine[east=false,north=false,south=false,up=false,west=true]
+  0_-1_-1: minecraft:grass_block[snowy=false]
+  5_0_-1: minecraft:tall_grass[half=lower]
+  '5_0_1': minecraft:poppy
+  3_-1_-2: minecraft:podzol[snowy=false]
+  3_-1_-1: minecraft:grass_block[snowy=false]
+  '4_0_1': minecraft:vine[east=false,north=true,south=false,up=false,west=false]
+  2_0_-1: minecraft:vine[east=false,north=false,south=true,up=false,west=false]
+  1_-1_-1: minecraft:grass_block[snowy=false]
+  '2_0_0': minecraft:spruce_log[axis=x]
+  4_-1_0: minecraft:dirt
+  4_-1_-1: minecraft:grass_block[snowy=false]
