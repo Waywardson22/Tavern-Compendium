@@ -1,0 +1,3961 @@
+biomes:
+  JUNGLE:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:bamboo;2
+      - minecraft:dandelion;5
+      - minecraft:grass;45
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+      - minecraft:jungle_leaves[distance=7,persistent=false];25
+      - minecraft:oak_leaves[distance=7,persistent=false];10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 5.0
+      trees:
+      - BAMBOO3::0.6
+      - BAMBOO4::0.6
+      - BAMBOO7::0.8
+      - JUNGLE_TREE_1::1.0
+      - JUNGLE_TREE_2::1.0
+      - JUNGLE_TREE_3::1.0
+      - JUNGLE_TREE_4::1.0
+      - JUNGLE_TREE_5::1.0
+      - JUNGLE_TREE_6::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 3.0
+      structures:
+      - BT_CAMP::0.4
+      - BT_RUIN3::0.3
+      - BT_DUNGEON1::1.0
+      - JUNGLE_TEMPLE_1::1.0
+      - BT_JUNGLE_TEMPLE::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_WELL1::0.4
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - PANDA::0.1
+      - OCELOT::0.4
+      - PARROT::0.3
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:grass_block[snowy=false];170
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;110
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;40
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;10
+      - minecraft:diorite;25
+      - minecraft:granite;25
+  JUNGLE_HILLS:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:grass;40
+      - minecraft:fern;50
+      - minecraft:jungle_leaves[distance=7,persistent=false];25
+      - minecraft:oak_leaves[distance=7,persistent=false];10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 6600.0
+        min: 0.0
+        max: 13.0
+      trees:
+      - BAMBOO3::0.7
+      - BAMBOO4::0.7
+      - BAMBOO7::0.9
+      - JUNGLE_TREE_1::1.0
+      - JUNGLE_TREE_2::1.0
+      - JUNGLE_TREE_3::1.0
+      - JUNGLE_TREE_4::1.0
+      - JUNGLE_TREE_5::1.0
+      - JUNGLE_TREE_6::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.2
+      structures:
+      - BT_CAMP::0.4
+      - BT_RUIN3::0.3
+      - BT_DUNGEON1::1.0
+      - JUNGLE_TEMPLE_1::1.0
+      - BT_JUNGLE_TEMPLE::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_WELL1::0.4
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - PANDA::0.1
+      - OCELOT::0.4
+      - PARROT::0.3
+    layer:
+      '1':
+      - minecraft:coarse_dirt;30
+      - minecraft:grass_block[snowy=false];150
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:diorite;25
+      - minecraft:granite;25
+  JUNGLE_MOUNTAINS:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;40
+      - minecraft:fern;50
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:jungle_leaves[distance=7,persistent=false];25
+      - minecraft:oak_leaves[distance=7,persistent=false];10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 6600.0
+        min: 0.0
+        max: 2.0
+      trees:
+      - BAMBOO3::0.6
+      - BAMBOO4::0.6
+      - BAMBOO7::0.8
+      - JUNGLE_TREE_1::1.0
+      - JUNGLE_TREE_2::1.0
+      - JUNGLE_TREE_3::1.0
+      - JUNGLE_TREE_4::1.0
+      - JUNGLE_TREE_5::1.0
+      - JUNGLE_TREE_6::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.5
+      structures:
+      - BT_CAMP::0.4
+      - BT_RUIN3::0.3
+      - BT_DUNGEON1::1.0
+      - JUNGLE_TEMPLE_1::1.0
+      - BT_JUNGLE_TEMPLE::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_WELL1::0.4
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - PANDA::0.1
+      - OCELOT::0.4
+      - PARROT::0.3
+    layer:
+      '1':
+      - minecraft:coarse_dirt;40
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:diorite;25
+      - minecraft:granite;25
+  FOREST:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;40
+      - minecraft:fern;50
+      - minecraft:oak_leaves[distance=7,persistent=false];2
+      - minecraft:tall_grass[half=lower];20
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 250.0
+        min: 0.0
+        max: 2.5
+      trees:
+      - BT_OAKLOG::0.35
+      - BT_OAKLOG2::0.35
+      - BIG_OAK_TREE_1::1.0
+      - BIG_OAK_TREE_2::1.0
+      - BIG_OAK_TREE_3::1.0
+      - BIG_OAK_TREE_4::1.0
+      - OAK_TREE_1::1.0
+      - OAK_TREE_2::1.0
+      - OAK_TREE_3::1.0
+      - OAK_TREE_4::1.0
+      - OAK_TREE_5::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 3.0
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_WELL1::0.4
+      - BT_CAMP::0.5
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.05
+      - BT_LAMPPOST2::0.05
+      - BT_POND::0.4
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.3
+      - BT_RUINHOUSE1::0.25
+      - BT_RUINMILL::0.22
+      - BT_TOWER1::0.2
+      - BT_TOWER2::0.2
+      - BT_WIZTOWER::0.09
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.2
+      - WOLF::0.5
+    layer:
+      '1':
+      - minecraft:coarse_dirt;5
+      - minecraft:podzol[snowy=false];10
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  FOREST_HILLS:
+    overlay:
+      chance: 7
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:grass;40
+      - minecraft:fern;50
+      - minecraft:oak_leaves[distance=7,persistent=false];2
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 300.0
+        min: 0.0
+        max: 1.0
+      trees:
+      - BT_OAKLOG::0.35
+      - BT_OAKLOG2::0.35
+      - BIG_OAK_TREE_1::1.0
+      - BIG_OAK_TREE_2::1.0
+      - BIG_OAK_TREE_3::1.0
+      - BIG_OAK_TREE_4::1.0
+      - OAK_TREE_1::1.0
+      - OAK_TREE_2::1.0
+      - OAK_TREE_3::1.0
+      - OAK_TREE_4::1.0
+      - OAK_TREE_5::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.2
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_WELL1::0.4
+      - BT_CAMP::0.5
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.05
+      - BT_LAMPPOST2::0.05
+      - BT_POND::0.4
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.3
+      - BT_RUINHOUSE1::0.25
+      - BT_RUINMILL::0.22
+      - BT_TOWER1::0.2
+      - BT_TOWER2::0.2
+      - BT_WIZTOWER::0.09
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.2
+      - WOLF::0.5
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:podzol[snowy=false];20
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;45
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;80
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  SWAMPLAND:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:grass;40
+      - minecraft:fern;50
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:blue_orchid;12
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 400.0
+        min: 0.0
+        max: 2.5
+      trees:
+      - BT_BROWNMUSH1::0.4
+      - BT_BROWNMUSH2::0.3
+      - BT_BROWNMUSH3::0.2
+      - BT_REDMUSH1::0.4
+      - BT_REDMUSH2::0.3
+      - BT_REDMUSH3::0.2
+      - SWAMP_TREE_1::1.0
+      - SWAMP_TREE_2::1.0
+      - SWAMP_TREE_3::1.0
+      - SWAMP_TREE_4::1.0
+      - BT_FROG1::0.02
+      - BT_FROG2::0.02
+      - BT_FROG3::0.02
+      - BT_FROG4::0.02
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 3.0
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_WITCHHUT::1.2
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - SLIME::2.5
+    layer:
+      '1':
+      - minecraft:coarse_dirt;2
+      - minecraft:podzol[snowy=false];25
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  SWAMPLAND_HILLS:
+    overlay:
+      chance: 14
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:grass;40
+      - minecraft:fern;50
+      - minecraft:blue_orchid;12
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 500.0
+        min: 0.0
+        max: 2.5
+      trees:
+      - BT_BROWNMUSH1::0.4
+      - BT_BROWNMUSH2::0.3
+      - BT_BROWNMUSH3::0.2
+      - BT_REDMUSH1::0.4
+      - BT_REDMUSH2::0.3
+      - BT_REDMUSH3::0.2
+      - SWAMP_TREE_1::1.0
+      - SWAMP_TREE_2::1.0
+      - SWAMP_TREE_3::1.0
+      - SWAMP_TREE_4::1.0
+      - BT_FROG1::0.02
+      - BT_FROG2::0.02
+      - BT_FROG3::0.02
+      - BT_FROG4::0.02
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.2
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_WITCHHUT::1.2
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - SLIME::2.0
+    layer:
+      '1':
+      - minecraft:coarse_dirt;2
+      - minecraft:podzol[snowy=false];25
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;80
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;45
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;75
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;125
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  BEACH:
+    overlay:
+      chance: 3
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;40
+      - minecraft:tall_grass;10
+      - minecraft:fern;50
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 3.3
+      trees:
+      - BT_BANANATREE1::1.0
+      - BT_BANANATREE2::1.0
+      - BT_COCOTREE1::1.0
+      - BT_COCOTREE2::1.0
+      - BT_COCOTREE3::1.0
+      - SUGARCANE2::0.8
+      - SUGARCANE3::0.8
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.5
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - TURTLE::0.8
+      - SQUID::0.8
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:grass_block[snowy=false];5
+      - minecraft:coarse_dirt;2
+      - minecraft:gravel;2
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  COLD_BEACH:
+    overlay:
+      chance: 3
+      blocks:
+      - minecraft:snow[layers=1];100
+      - minecraft:grass;60
+      - minecraft:fern;50
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 3.3
+      trees:
+      - BT_BANANATREE1::1.0
+      - BT_BANANATREE2::1.0
+      - BT_COCOTREE1::1.0
+      - BT_COCOTREE2::1.0
+      - BT_COCOTREE3::1.0
+      - SUGARCANE2::0.8
+      - SUGARCANE3::0.8
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.5
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - TURTLE::0.8
+      - SQUID::0.8
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:podzol[snowy=true];2
+      - minecraft:grass_block[snowy=true];5
+      - minecraft:coarse_dirt;2
+      - minecraft:gravel;2
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+    overlay_water:
+      chance: 200
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 4.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_BLUESHIP::0.25
+      - BT_BLUESHIP2::0.25
+      - BT_RAFT::0.35
+      - BT_RAFT2::0.35
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.2
+      - BT_WATERRUIN2::0.2
+      - BT_WATERRUIN3::0.2
+      - BT_WATERRUIN4::0.2
+      - BT_WATERRUIN5::0.2
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.7
+      - COD::0.75
+      - SQUID::0.8
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  LUKEWARM_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    overlay_water:
+      chance: 0
+      blocks: []
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 3.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_BLUESHIP::0.25
+      - BT_BLUESHIP2::0.25
+      - BT_RAFT::0.35
+      - BT_RAFT2::0.35
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.2
+      - BT_WATERRUIN2::0.2
+      - BT_WATERRUIN3::0.2
+      - BT_WATERRUIN4::0.2
+      - BT_WATERRUIN5::0.2
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.7
+      - SQUID::0.8
+      - DOLPHIN::0.7
+      - COD::0.2
+      - SALMON::0.2
+      - PUFFERFISH::0.25
+      - TROPICAL_FISH::0.6
+      - TROPICAL_FISH::0.6
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  WARM_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    overlay_water:
+      chance: 0
+      blocks: []
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 3.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_BLUESHIP::0.25
+      - BT_BLUESHIP2::0.25
+      - BT_RAFT::0.35
+      - BT_RAFT2::0.35
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.2
+      - BT_WATERRUIN2::0.2
+      - BT_WATERRUIN3::0.2
+      - BT_WATERRUIN4::0.2
+      - BT_WATERRUIN5::0.2
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.5
+      - COD::0.2
+      - SQUID::0.6
+      - DOLPHIN::0.5
+      - TROPICAL_FISH::0.7
+      - TROPICAL_FISH::0.7
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  COLD_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+    overlay_water:
+      chance: 0
+      blocks: []
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 3.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_BLUESHIP::0.25
+      - BT_BLUESHIP2::0.25
+      - BT_RAFT::0.35
+      - BT_RAFT2::0.35
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.2
+      - BT_WATERRUIN2::0.2
+      - BT_WATERRUIN3::0.2
+      - BT_WATERRUIN4::0.2
+      - BT_WATERRUIN5::0.2
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.7
+      - COD::0.75
+      - SQUID::0.8
+      - COD::0.75
+      - SALMON::0.26
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  FROZEN_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+    overlay_water:
+      chance: 0
+      blocks: []
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 3.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_BLUESHIP::0.25
+      - BT_BLUESHIP2::0.25
+      - BT_RAFT::0.35
+      - BT_RAFT2::0.35
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.2
+      - BT_WATERRUIN2::0.2
+      - BT_WATERRUIN3::0.2
+      - BT_WATERRUIN4::0.2
+      - BT_WATERRUIN5::0.2
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.7
+      - COD::0.75
+      - SQUID::0.8
+      - COD::0.75
+      - SALMON::0.26
+      - POLAR_BEAR::0.5
+      - RABBIT::0.25
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+    overlay_water:
+      chance: 0
+      blocks: []
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 5.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_BLUESHIP::0.25
+      - BT_BLUESHIP2::0.25
+      - BT_RAFT::0.35
+      - BT_RAFT2::0.35
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.1
+      - BT_WATERRUIN2::0.1
+      - BT_WATERRUIN3::0.1
+      - BT_WATERRUIN4::0.1
+      - BT_WATERRUIN5::0.1
+      - BT_SHIPWRECKBACK1::0.3
+      - BT_SHIPWRECKBACK2::0.3
+      - BT_SHIPWRECKBACK3::0.3
+      - BT_SHIPWRECKFRONT1::0.3
+      - BT_SHIPWRECKFRONT2::0.3
+      - BT_SHIPWRECKFRONT3::0.3
+      - BT_SHIPWRECKWHOLE1::0.1
+      - BT_SHIPWRECKWHOLE2::0.1
+      - BT_ISLAND1::0.4
+      - BT_ISLAND2::0.4
+      - BT_ISLAND3::0.2
+      - BT_MONUMENT::0.3
+      - BT_WATERPALACE::0.08
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.7
+      - COD::0.75
+      - SQUID::0.8
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_LUKEWARM_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    overlay_water:
+      chance: 0
+      blocks: []
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 5.0
+      trees:
+      - CORAL_BLUE_0::1.0
+      - CORAL_BLUE_1::1.0
+      - CORAL_BLUE_2::1.0
+      - CORAL_BLUE_3::1.0
+      - CORAL_RED_0::1.0
+      - CORAL_RED_1::1.0
+      - CORAL_RED_2::1.0
+      - CORAL_RED_3::1.0
+      - CORAL_PINK_0::1.0
+      - CORAL_PINK_1::1.0
+      - CORAL_PINK_2::1.0
+      - CORAL_PINK_3::1.0
+      - CORAL_MAGENTA_0::1.0
+      - CORAL_MAGENTA_1::1.0
+      - CORAL_MAGENTA_2::1.0
+      - CORAL_MAGENTA_3::1.0
+      - CORAL_YELLOW_0::1.0
+      - CORAL_YELLOW_1::1.0
+      - CORAL_YELLOW_2::1.0
+      - CORAL_YELLOW_3::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_BLUESHIP::0.25
+      - BT_BLUESHIP2::0.25
+      - BT_RAFT::0.35
+      - BT_RAFT2::0.35
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.1
+      - BT_WATERRUIN2::0.1
+      - BT_WATERRUIN3::0.1
+      - BT_WATERRUIN4::0.1
+      - BT_WATERRUIN5::0.1
+      - BT_SHIPWRECKBACK1::0.3
+      - BT_SHIPWRECKBACK2::0.3
+      - BT_SHIPWRECKBACK3::0.3
+      - BT_SHIPWRECKFRONT1::0.3
+      - BT_SHIPWRECKFRONT2::0.3
+      - BT_SHIPWRECKFRONT3::0.3
+      - BT_SHIPWRECKWHOLE1::0.1
+      - BT_SHIPWRECKWHOLE2::0.1
+      - BT_ISLAND1::0.4
+      - BT_ISLAND2::0.4
+      - BT_ISLAND3::0.2
+      - BT_MONUMENT::0.3
+      - BT_WATERPALACE::0.08
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.7
+      - SQUID::0.8
+      - DOLPHIN::0.7
+      - COD::0.2
+      - SALMON::0.2
+      - PUFFERFISH::0.25
+      - TROPICAL_FISH::0.6
+      - TROPICAL_FISH::0.6
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_WARM_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+      - minecraft:brain_coral_fan[waterlogged=true];3
+      - minecraft:bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_brain_coral_fan[waterlogged=true];3
+      - minecraft:dead_bubble_coral_fan[waterlogged=true];3
+      - minecraft:dead_fire_coral_fan[waterlogged=true];3
+      - minecraft:dead_horn_coral_fan[waterlogged=true];3
+      - minecraft:dead_tube_coral_fan[waterlogged=true];3
+      - minecraft:fire_coral_fan[waterlogged=true];3
+      - minecraft:horn_coral_fan[waterlogged=true];3
+      - minecraft:tube_coral_fan[waterlogged=true];3
+    overlay_water:
+      chance: 0
+      blocks: []
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 5.0
+      trees:
+      - CORAL_BLUE_0::1.0
+      - CORAL_BLUE_1::1.0
+      - CORAL_BLUE_2::1.0
+      - CORAL_BLUE_3::1.0
+      - CORAL_RED_0::1.0
+      - CORAL_RED_1::1.0
+      - CORAL_RED_2::1.0
+      - CORAL_RED_3::1.0
+      - CORAL_PINK_0::1.0
+      - CORAL_PINK_1::1.0
+      - CORAL_PINK_2::1.0
+      - CORAL_PINK_3::1.0
+      - CORAL_MAGENTA_0::1.0
+      - CORAL_MAGENTA_1::1.0
+      - CORAL_MAGENTA_2::1.0
+      - CORAL_MAGENTA_3::1.0
+      - CORAL_YELLOW_0::1.0
+      - CORAL_YELLOW_1::1.0
+      - CORAL_YELLOW_2::1.0
+      - CORAL_YELLOW_3::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_BLUESHIP::0.25
+      - BT_BLUESHIP2::0.25
+      - BT_RAFT::0.35
+      - BT_RAFT2::0.35
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.1
+      - BT_WATERRUIN2::0.1
+      - BT_WATERRUIN3::0.1
+      - BT_WATERRUIN4::0.1
+      - BT_WATERRUIN5::0.1
+      - BT_SHIPWRECKBACK1::0.3
+      - BT_SHIPWRECKBACK2::0.3
+      - BT_SHIPWRECKBACK3::0.3
+      - BT_SHIPWRECKFRONT1::0.3
+      - BT_SHIPWRECKFRONT2::0.3
+      - BT_SHIPWRECKFRONT3::0.3
+      - BT_SHIPWRECKWHOLE1::0.1
+      - BT_SHIPWRECKWHOLE2::0.1
+      - BT_ISLAND1::0.4
+      - BT_ISLAND2::0.4
+      - BT_ISLAND3::0.2
+      - BT_MONUMENT::0.3
+      - BT_WATERPALACE::0.08
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.5
+      - COD::0.2
+      - SQUID::0.6
+      - DOLPHIN::0.5
+      - TROPICAL_FISH::0.7
+      - TROPICAL_FISH::0.7
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_COLD_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+    overlay_water:
+      chance: 0
+      blocks: []
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 3.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_BLUESHIP::0.25
+      - BT_BLUESHIP2::0.25
+      - BT_RAFT::0.35
+      - BT_RAFT2::0.35
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.1
+      - BT_WATERRUIN2::0.1
+      - BT_WATERRUIN3::0.1
+      - BT_WATERRUIN4::0.1
+      - BT_WATERRUIN5::0.1
+      - BT_SHIPWRECKBACK1::0.3
+      - BT_SHIPWRECKBACK2::0.3
+      - BT_SHIPWRECKBACK3::0.3
+      - BT_SHIPWRECKFRONT1::0.3
+      - BT_SHIPWRECKFRONT2::0.3
+      - BT_SHIPWRECKFRONT3::0.3
+      - BT_SHIPWRECKWHOLE1::0.1
+      - BT_SHIPWRECKWHOLE2::0.1
+      - BT_ISLAND1::0.4
+      - BT_ISLAND2::0.4
+      - BT_ISLAND3::0.2
+      - BT_MONUMENT::0.3
+      - BT_WATERPALACE::0.08
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.7
+      - COD::0.75
+      - SQUID::0.8
+      - COD::0.75
+      - SALMON::0.26
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DEEP_FROZEN_OCEAN:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:sea_pickle[pickles=1,waterlogged=true];5
+      - minecraft:seagrass;100
+      - minecraft:kelp_plant;15
+    overlay_water:
+      chance: 0
+      blocks: []
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 3.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.6
+      structures:
+      - BT_FOSSIL1::0.1
+      - BT_FOSSIL2::0.1
+      - BT_FOSSIL3::0.1
+      - BT_FOSSIL4::0.1
+      - BT_FOSSIL5::0.1
+      - BT_WATERRUIN1::0.1
+      - BT_WATERRUIN2::0.1
+      - BT_WATERRUIN3::0.1
+      - BT_WATERRUIN4::0.1
+      - BT_WATERRUIN5::0.1
+      - BT_MONUMENT::0.2
+      - BT_WATERPALACE::0.08
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - DOLPHIN::0.7
+      - COD::0.75
+      - SQUID::0.8
+      - COD::0.75
+      - SALMON::0.26
+      - POLAR_BEAR::0.5
+      - RABBIT::0.25
+    layer:
+      '1':
+      - minecraft:sand;200
+      - minecraft:clay;10
+      - minecraft:gravel;15
+      '2':
+      - minecraft:stone;10
+      - minecraft:sandstone;60
+      - minecraft:sand;40
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      - minecraft:clay;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DESERT:
+    overlay:
+      chance: 256
+      blocks:
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;15
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 3.0
+      trees:
+      - CACTUS_1::1.0
+      - CACTUS_2::1.0
+      - CACTUS_3::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.5
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - DESERT_RESERVOIR::1.0
+      - BT_PYRAMID::0.9
+      - BT_DESERT_TEMPLE::0.6
+      - BT_DESERTVILLAGE1::1.2
+      - BT_DESERTVILLAGE1::1.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - RABBIT::0.25
+    layer:
+      '1':
+      - minecraft:sand;250
+      - minecraft:red_sand;10
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;5
+      - minecraft:sandstone;90
+      - minecraft:sand;60
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;2
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;2
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DESERT_HILLS:
+    overlay:
+      chance: 346
+      blocks:
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;15
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 650.0
+        min: 0.0
+        max: 22.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.5
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - DESERT_RESERVOIR::1.0
+      - BT_PYRAMID::0.9
+      - BT_DESERT_TEMPLE::0.6
+      - BT_DESERTVILLAGE1::1.2
+      - BT_DESERTVILLAGE1::1.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - RABBIT::0.25
+    layer:
+      '1':
+      - minecraft:sand;250
+      - minecraft:red_sand;10
+      - minecraft:sandstone;10
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;5
+      - minecraft:sandstone;90
+      - minecraft:sand;60
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;2
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;2
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  DESERT_MOUNTAINS:
+    overlay:
+      chance: 512
+      blocks:
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;15
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 1.0
+      trees: []
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.0
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - DESERT_RESERVOIR::1.0
+      - BT_PYRAMID::0.9
+      - BT_DESERT_TEMPLE::0.6
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - RABBIT::0.25
+    layer:
+      '1':
+      - minecraft:sand;150
+      - minecraft:red_sand;6
+      - minecraft:red_sandstone;4
+      - minecraft:sandstone;40
+      '2':
+      - minecraft:stone;10
+      - minecraft:red_sandstone;5
+      - minecraft:sandstone;90
+      - minecraft:sand;60
+      - minecraft:red_sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+      '3':
+      - minecraft:stone;30
+      - minecraft:red_sandstone;2
+      - minecraft:sandstone;40
+      - minecraft:sand;30
+      - minecraft:red_sand;2
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '4':
+      - minecraft:stone;50
+      - minecraft:sandstone;30
+      - minecraft:sand;20
+      - minecraft:granite;15
+      - minecraft:diorite;15
+      - minecraft:andesite;15
+      '5':
+      - minecraft:stone;90
+      - minecraft:sandstone;15
+      - minecraft:sand;5
+      - minecraft:granite;10
+      - minecraft:diorite;10
+      - minecraft:andesite;10
+  PLAINS:
+    overlay:
+      chance: 5
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:melon;1
+      - minecraft:sunflower[half=lower];1
+      - minecraft:tall_grass[half=lower];1
+      - minecraft:lilac[half=lower];1
+      - minecraft:rose_bush[half=lower];1
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 10000.0
+        min: 0.0
+        max: 1.5
+      trees:
+      - OAK_TREE_1::1.0
+      - OAK_TREE_2::1.0
+      - OAK_TREE_3::1.0
+      - OAK_TREE_4::1.0
+      - OAK_TREE_5::1.0
+      - BIG_OAK_TREE_1::1.0
+      - BIG_OAK_TREE_2::1.0
+      - BIG_OAK_TREE_3::1.0
+      - BIG_OAK_TREE_4::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 3.0
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_BALLOON1::0.1
+      - BT_BALLOON2::0.1
+      - BT_BALLOON3::0.05
+      - BT_CAMP::0.6
+      - BT_LAMPPOST::0.1
+      - BT_LAMPPOST2::0.1
+      - BT_RUIN1::0.1
+      - BT_RUIN2::0.07
+      - BT_WINDMILL::0.85
+      - BT_TOWER2::0.3
+      - BT_WAGON::0.3
+      - BT_WAGON2::0.3
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - HORSE::0.4
+      - DONKEY::0.05
+    layer:
+      '1':
+      - minecraft:coarse_dirt;2
+      - minecraft:podzol[snowy=false];5
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  ICE_PLAINS:
+    overlay:
+      chance: 5
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:snow[layers=1];15
+      - minecraft:grass;60
+      - minecraft:fern;50
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 6600.0
+        min: 0.0
+        max: 13.0
+      trees:
+      - TAIGA_TREE_1::1.0
+      - TAIGA_TREE_2::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.2
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_IGLOO::1.0
+      - BT_RUINHOUSE1::0.5
+      - BT_RUIN1::0.3
+      - BT_RUIN3::0.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - RABBIT::0.25
+      - POLAR_BEAR::0.1
+      - FOX::0.8
+      - WOLF::0.8
+    layer:
+      '1':
+      - minecraft:grass_block[snowy=true];10
+      - minecraft:snow_block;240
+      - minecraft:packed_ice;20
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      - minecraft:snow_block;10
+      - minecraft:packed_ice;5
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      - minecraft:snow_block;5
+      - minecraft:packed_ice;2
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  BIRCH_FOREST:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+      - minecraft:oak_leaves[distance=7,persistent=false];2
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 150.0
+        min: 0.0
+        max: 1.8
+      trees:
+      - BT_BIRCHLOG::0.35
+      - BT_BIRCHLOG2::0.35
+      - BIRCH_TREE_1::1.0
+      - BIRCH_TREE_2::1.0
+      - BIRCH_TREE_3::1.0
+      - BIRCH_TREE_4::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 3.0
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.15
+      - BT_LAMPPOST2::0.15
+      - BT_RUINHOUSE1::0.4
+      - BT_RUINMILL::0.3
+      - BT_CAMP::0.25
+      - BT_WAGON::0.25
+      - BT_WAGON2::0.25
+      - BT_TOWER1::0.3
+      - BT_POND::0.35
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];5
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  BIRCH_FOREST_HILLS:
+    overlay:
+      chance: 7
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;45
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+      - minecraft:oak_leaves[distance=7,persistent=false];2
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 200.0
+        min: 0.0
+        max: 1.2
+      trees:
+      - BT_BIRCHLOG::0.35
+      - BT_BIRCHLOG2::0.35
+      - BIRCH_TREE_1::1.0
+      - BIRCH_TREE_2::1.0
+      - BIRCH_TREE_3::1.0
+      - BIRCH_TREE_4::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.2
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.15
+      - BT_LAMPPOST2::0.15
+      - BT_RUINHOUSE1::0.4
+      - BT_RUINMILL::0.3
+      - BT_CAMP::0.25
+      - BT_WAGON::0.25
+      - BT_WAGON2::0.25
+      - BT_TOWER1::0.3
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+    layer:
+      '1':
+      - minecraft:coarse_dirt;25
+      - minecraft:podzol[snowy=false];5
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;45
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;80
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  TAIGA:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;45
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+      - minecraft:brown_mushroom;10
+      - minecraft:red_mushroom;10
+      - minecraft:pumpkin;2
+      - minecraft:rose_bush[half=lower];20
+      - minecraft:large_fern[half=lower];25
+      - minecraft:lilac[half=lower];15
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 200.0
+        min: 0.0
+        max: 1.8
+      trees:
+      - BT_SPRUCELOG::0.35
+      - BT_SPRUCELOG2::0.35
+      - TAIGA_TREE_1::1.0
+      - TAIGA_TREE_2::1.0
+      - TAIGA_TREE_3::1.0
+      - TAIGA_TREE_4::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 3.0
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.15
+      - BT_LAMPPOST2::0.15
+      - BT_RUINHOUSE1::0.4
+      - BT_RUINCHURCH::0.3
+      - BT_CAMP::0.25
+      - BT_WAGON::0.25
+      - BT_WAGON2::0.25
+      - BT_TOWER1::0.3
+      - BT_WELL1::0.1
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.25
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.25
+      - FOX::0.8
+      - WOLF::0.8
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  TAIGA_HILLS:
+    overlay:
+      chance: 8
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;45
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+      - minecraft:brown_mushroom;10
+      - minecraft:red_mushroom;10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 250.0
+        min: 0.0
+        max: 1.0
+      trees:
+      - BT_SPRUCELOG::0.35
+      - BT_SPRUCELOG2::0.35
+      - TAIGA_TREE_1::1.0
+      - TAIGA_TREE_2::1.0
+      - TAIGA_TREE_3::1.0
+      - TAIGA_TREE_4::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.2
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.15
+      - BT_LAMPPOST2::0.15
+      - BT_RUINHOUSE1::0.4
+      - BT_RUINCHURCH::0.3
+      - BT_CAMP::0.25
+      - BT_WAGON::0.25
+      - BT_WAGON2::0.25
+      - BT_TOWER1::0.3
+      - BT_WELL1::0.1
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.25
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.25
+      - FOX::0.8
+      - WOLF::0.8
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  TAIGA_MOUNTAINS:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;45
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+      - minecraft:brown_mushroom;10
+      - minecraft:red_mushroom;10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 275.0
+        min: 0.0
+        max: 1.0
+      trees:
+      - BT_SPRUCELOG::0.35
+      - BT_SPRUCELOG2::0.35
+      - TAIGA_TREE_1::1.0
+      - TAIGA_TREE_2::1.0
+      - TAIGA_TREE_3::1.0
+      - TAIGA_TREE_4::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.5
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.15
+      - BT_LAMPPOST2::0.15
+      - BT_RUINHOUSE1::0.4
+      - BT_RUINCHURCH::0.3
+      - BT_CAMP::0.25
+      - BT_WAGON::0.25
+      - BT_WAGON2::0.25
+      - BT_TOWER1::0.3
+      - BT_WELL1::0.1
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.25
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.25
+      - FOX::0.8
+      - WOLF::0.8
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  COLD_TAIGA:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:brown_mushroom;10
+      - minecraft:red_mushroom;10
+      - minecraft:snow[layers=1];240
+      - minecraft:snow[layers=2];120
+      - minecraft:snow[layers=3];60
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 660.0
+        min: 0.0
+        max: 1.0
+      trees:
+      - BT_SPRUCELOG::0.35
+      - BT_SPRUCELOG2::0.35
+      - TAIGA_TREE_6::1.0
+      - TAIGA_TREE_7::1.0
+      - TAIGA_TREE_8::1.0
+      - TAIGA_TREE_9::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.2
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.15
+      - BT_LAMPPOST2::0.15
+      - BT_RUINHOUSE1::0.4
+      - BT_RUINCHURCH::0.3
+      - BT_CAMP::0.25
+      - BT_WAGON::0.25
+      - BT_WAGON2::0.25
+      - BT_TOWER1::0.3
+      - BT_WELL1::0.1
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.25
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.25
+      - FOX::0.8
+      - WOLF::0.8
+    layer:
+      '1':
+      - minecraft:podzol[snowy=true];15
+      - minecraft:grass_block[snowy=true];100
+      - minecraft:snow_block;200
+      - minecraft:packed_ice;15
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      - minecraft:snow_block;10
+      - minecraft:packed_ice;2
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  COLD_TAIGA_HILLS:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:brown_mushroom;10
+      - minecraft:red_mushroom;10
+      - minecraft:snow[layers=1];240
+      - minecraft:snow[layers=2];120
+      - minecraft:snow[layers=3];60
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 800.0
+        min: 0.0
+        max: 1.0
+      trees:
+      - BT_SPRUCELOG::0.35
+      - BT_SPRUCELOG2::0.35
+      - TAIGA_TREE_6::1.0
+      - TAIGA_TREE_7::1.0
+      - TAIGA_TREE_8::1.0
+      - TAIGA_TREE_9::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.5
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.15
+      - BT_LAMPPOST2::0.15
+      - BT_RUINHOUSE1::0.4
+      - BT_RUINCHURCH::0.3
+      - BT_CAMP::0.25
+      - BT_WAGON::0.25
+      - BT_WAGON2::0.25
+      - BT_TOWER1::0.3
+      - BT_WELL1::0.1
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.25
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.25
+      - FOX::0.8
+      - WOLF::0.8
+    layer:
+      '1':
+      - minecraft:podzol[snowy=true];15
+      - minecraft:grass_block[snowy=true];100
+      - minecraft:snow_block;200
+      - minecraft:packed_ice;15
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      - minecraft:snow_block;10
+      - minecraft:packed_ice;2
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  COLD_TAIGA_MOUNTAINS:
+    overlay:
+      chance: 2
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:brown_mushroom;10
+      - minecraft:red_mushroom;10
+      - minecraft:snow[layers=1];240
+      - minecraft:snow[layers=2];120
+      - minecraft:snow[layers=3];60
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 900.0
+        min: 0.0
+        max: 1.0
+      trees:
+      - BT_SPRUCELOG::0.35
+      - BT_SPRUCELOG2::0.35
+      - TAIGA_TREE_6::1.0
+      - TAIGA_TREE_7::1.0
+      - TAIGA_TREE_8::1.0
+      - TAIGA_TREE_9::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.0
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_LAMPPOST::0.15
+      - BT_LAMPPOST2::0.15
+      - BT_RUINHOUSE1::0.4
+      - BT_RUINCHURCH::0.3
+      - BT_CAMP::0.25
+      - BT_WAGON::0.25
+      - BT_WAGON2::0.25
+      - BT_TOWER1::0.3
+      - BT_WELL1::0.1
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.25
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.25
+      - FOX::0.8
+      - WOLF::0.8
+    layer:
+      '1':
+      - minecraft:podzol[snowy=true];15
+      - minecraft:grass_block[snowy=true];100
+      - minecraft:snow_block;200
+      - minecraft:packed_ice;15
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      - minecraft:snow_block;10
+      - minecraft:packed_ice;2
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  EXTREME_HILLS:
+    overlay:
+      chance: 10
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;45
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 6600.0
+        min: 0.0
+        max: 35.0
+      trees:
+      - TAIGA_TREE_1::1.0
+      - TAIGA_TREE_2::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.5
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_WIZTOWER::0.4
+      - BT_TOWER1::0.6
+      - BT_TOWER2::0.6
+      - BT_RUINHOUSE1::0.5
+      - BT_WELL1::0.3
+      - BT_RUIN1::0.5
+      - BT_RUIN2::0.4
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+      - BT_SKYBISON::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - LLAMA::0.5
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  EXTREME_MOUNTAINS:
+    overlay:
+      chance: 13
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;45
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 6600.0
+        min: 0.0
+        max: 22.0
+      trees:
+      - TAIGA_TREE_1::1.0
+      - TAIGA_TREE_2::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.0
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_WIZTOWER::0.4
+      - BT_TOWER1::0.6
+      - BT_TOWER2::0.6
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+      - BT_SKYBISON::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - LLAMA::0.5
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  SAVANNA:
+    overlay:
+      chance: 17
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;45
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 6600.0
+        min: 0.0
+        max: 22.0
+      trees:
+      - SAVANA_TREE_1::1.0
+      - SAVANA_TREE_2::1.0
+      - SAVANA_TREE_3::1.0
+      - SAVANA_TREE_4::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.2
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.3
+      - BT_RUINHOUSE1::0.25
+      - BT_RUINMILL::0.22
+      - BT_TOWER1::0.2
+      - BT_TOWER2::0.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - LLAMA::0.8
+      - HORSE::0.1
+      - DONKEY::0.025
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      - minecraft:red_sand;3
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  SAVANNA_HILLS:
+    overlay:
+      chance: 20
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;45
+      - minecraft:tall_grass[half=lower];20
+      - minecraft:fern;50
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 6600.0
+        min: 0.0
+        max: 15.0
+      trees:
+      - SAVANA_TREE_1::1.0
+      - SAVANA_TREE_2::1.0
+      - SAVANA_TREE_3::1.0
+      - SAVANA_TREE_4::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.5
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUIN1::0.3
+      - BT_RUIN2::0.3
+      - BT_RUINHOUSE1::0.25
+      - BT_RUINMILL::0.22
+      - BT_TOWER1::0.2
+      - BT_TOWER2::0.2
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - LLAMA::0.8
+      - HORSE::0.1
+      - DONKEY::0.025
+    layer:
+      '1':
+      - minecraft:coarse_dirt;10
+      - minecraft:podzol[snowy=false];15
+      - minecraft:grass_block[snowy=false];100
+      - minecraft:red_sand;2
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  DEATH_LAND:
+    overlay:
+      chance: 17
+      blocks:
+      - minecraft:poppy;10
+      - minecraft:dandelion;5
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:dead_bush;10
+      - minecraft:dead_bush;10
+      - minecraft:brown_mushroom;12
+      - minecraft:red_mushroom;12
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 6600.0
+        min: 0.0
+        max: 15.0
+      trees:
+      - DEATH_TREE_1::1.0
+      - DEATH_TREE_2::1.0
+      - DEATH_TREE_3::1.0
+      - DEATH_TREE_4::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 1.5
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINHOUSE1::0.25
+      - BT_TOWER1::0.2
+      - BT_TOWER2::0.2
+      - BT_WELL1::0.5
+      - BT_CAMP::0.3
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities: []
+    layer:
+      '1':
+      - minecraft:coarse_dirt;20
+      - minecraft:podzol[snowy=false];35
+      - minecraft:grass_block[snowy=false];70
+      - minecraft:mycelium[snowy=false];15
+      - minecraft:cyan_terracotta;1
+      - minecraft:terracotta;8
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      - minecraft:terracotta;10
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      - minecraft:terracotta;8
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  DARK_OAK_FOREST:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:grass;50
+      - minecraft:tall_grass[half=lower];15
+      - minecraft:fern;20
+      - minecraft:brown_mushroom;2
+      - minecraft:red_mushroom;2
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 200.0
+        min: 0.0
+        max: 1.8
+      trees:
+      - BT_DARKOAKLOG::0.35
+      - BT_DARKOAKLOG2::0.35
+      - DARK_TREE_1::1.0
+      - DARK_TREE_2::1.0
+      - DARK_TREE_3::1.0
+      - DARK_TREE_4::1.0
+      - BT_BROWNMUSH2::1.0
+      - BT_BROWNMUSH3::1.0
+      - BT_REDMUSH2::1.0
+      - BT_REDMUSH3::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 3.0
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_TOWER2::0.3
+      - BT_RUINHOUSE1::0.5
+      - BT_WELL1::0.3
+      - BT_RUIN1::0.4
+      - BT_RUIN2::0.3
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+      - BT_CAMP::0.3
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.2
+      - WOLF::0.5
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:podzol[snowy=false];50
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  DARK_OAK_FOREST_HILLS:
+    overlay:
+      chance: 12
+      blocks:
+      - minecraft:grass;50
+      - minecraft:tall_grass[half=lower];15
+      - minecraft:fern;20
+      - minecraft:brown_mushroom;2
+      - minecraft:red_mushroom;2
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 600.0
+        min: 0.0
+        max: 1.0
+      trees:
+      - BT_DARKOAKLOG::0.35
+      - BT_DARKOAKLOG2::0.35
+      - DARK_TREE_1::1.0
+      - DARK_TREE_2::1.0
+      - DARK_TREE_3::1.0
+      - DARK_TREE_4::1.0
+      - BT_BROWNMUSH2::1.0
+      - BT_BROWNMUSH3::1.0
+      - BT_REDMUSH2::1.0
+      - BT_REDMUSH3::1.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 100000.0
+        min: 0.0
+        max: 2.2
+      structures:
+      - BT_DUNGEON1::1.0
+      - BT_RUINPORTAL1::0.20
+      - BT_RUINPORTAL2::0.20
+      - BT_RUINPORTAL3::0.20
+      - BT_FOSSIL1::0.2
+      - BT_FOSSIL2::0.2
+      - BT_FOSSIL3::0.2
+      - BT_FOSSIL4::0.2
+      - BT_FOSSIL5::0.2
+      - BT_TOWER2::0.3
+      - BT_RUINHOUSE1::0.5
+      - BT_WELL1::0.3
+      - BT_RUIN1::0.4
+      - BT_RUIN2::0.3
+      - BT_GEODE1::0.1
+      - BT_GEODE2::0.1
+      - BT_GEODE3::0.05
+      - BT_GEODE4::0.05
+      - BT_ICECAVE::0.08
+      - BT_SHAFT1::0.075
+      - BT_SHAFT2::0.075
+      - BT_SHAFT3::0.075
+      - BT_SHAFT4::0.075
+      - BT_SILVERTRAP::0.02
+      - BT_CAMP::0.3
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::5.0
+      - PIG::5.0
+      - SHEEP::6.0
+      - COW::4.0
+      - RABBIT::0.2
+      - WOLF::0.5
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:podzol[snowy=false];50
+      - minecraft:grass_block[snowy=false];120
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;90
+      - minecraft:andesite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;60
+      - minecraft:andesite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;20
+      - minecraft:andesite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;2
+      - minecraft:andesite;25
+      - minecraft:granite;25
+  BAMBOO_JUNGLE:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:jungle_leaves[distance=7,persistent=false];25
+      - minecraft:oak_leaves[distance=7,persistent=false];10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 20.0
+        min: 0.0
+        max: 1.0
+      trees:
+      - JUNGLE_TREE_1::0.1
+      - JUNGLE_TREE_2::0.1
+      - JUNGLE_TREE_3::0.1
+      - JUNGLE_TREE_6::0.1
+      - BAMBOO_1::10.0
+      - BAMBOO_2::10.0
+      - BAMBOO_3::10.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 500000.0
+        min: 0.0
+        max: 1.0
+      structures:
+      - DUNGEON::1.0
+      - STRONGHOLD::0.075
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::2.5
+      - PIG::2.5
+      - SHEEP::3.0
+      - COW::2.0
+      - PANDA::5.0
+      - OCELOT::0.4
+      - PARROT::0.3
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:podzol[snowy=false];100
+      - minecraft:grass_block[snowy=false];200
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;110
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;40
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;10
+      - minecraft:diorite;25
+      - minecraft:granite;25
+  BAMBOO_JUNGLE_HILLS:
+    overlay:
+      chance: 6
+      blocks:
+      - minecraft:grass;60
+      - minecraft:fern;50
+      - minecraft:jungle_leaves[distance=7,persistent=false];25
+      - minecraft:oak_leaves[distance=7,persistent=false];10
+    overlay_water:
+      chance: 100
+      blocks:
+      - minecraft:lily_pad;10
+    trees:
+      chance:
+        weight: 1.0
+        random: 40.0
+        min: 0.0
+        max: 1.0
+      trees:
+      - JUNGLE_TREE_1::0.2
+      - JUNGLE_TREE_2::0.2
+      - JUNGLE_TREE_3::0.2
+      - JUNGLE_TREE_6::0.2
+      - BAMBOO_1::10.0
+      - BAMBOO_2::10.0
+      - BAMBOO_3::10.0
+    structures:
+      chance:
+        weight: 1.0
+        random: 500000.0
+        min: 0.0
+        max: 1.0
+      structures:
+      - DUNGEON::1.0
+      - STRONGHOLD::0.075
+    entities:
+      chance:
+        weight: 1.0
+        random: 16.0
+        min: 0.0
+        max: 1.0
+      entities:
+      - CHICKEN::2.5
+      - PIG::2.5
+      - SHEEP::3.0
+      - COW::2.0
+      - PANDA::5.0
+      - OCELOT::0.4
+      - PARROT::0.3
+    layer:
+      '1':
+      - minecraft:coarse_dirt;15
+      - minecraft:podzol[snowy=false];100
+      - minecraft:grass_block[snowy=false];200
+      '2':
+      - minecraft:stone;30
+      - minecraft:dirt;110
+      - minecraft:diorite;8
+      - minecraft:granite;8
+      '3':
+      - minecraft:stone;40
+      - minecraft:dirt;80
+      - minecraft:diorite;10
+      - minecraft:granite;10
+      '4':
+      - minecraft:stone;70
+      - minecraft:dirt;40
+      - minecraft:diorite;15
+      - minecraft:granite;15
+      '5':
+      - minecraft:stone;120
+      - minecraft:dirt;10
+      - minecraft:diorite;25
+      - minecraft:granite;25
